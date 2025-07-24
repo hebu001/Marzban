@@ -81,11 +81,10 @@
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
-                    "dest": "discordapp.com:443",
+                    "dest": "whatsapp.com:443",
                     "xver": 0,
                     "serverNames": [
-                        "cdn.discordapp.com",
-                        "discordapp.com"
+                        "whatsapp.com"
                     ],
                     "privateKey": "MMX7m0Mj3faUstoEm5NBdegeXkHG6ZB78xzBv2n3ZUA",
                     "shortIds": [
