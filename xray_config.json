@@ -81,10 +81,10 @@
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
-                    "dest": "whatsapp.com:443",
+                    "dest": "yandex.ru:443",
                     "xver": 0,
                     "serverNames": [
-                        "whatsapp.com"
+                        "yandex.ru"
                     ],
                     "privateKey": "MMX7m0Mj3faUstoEm5NBdegeXkHG6ZB78xzBv2n3ZUA",
                     "shortIds": [
