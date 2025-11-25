@@ -1,4 +1,4 @@
-#{
+{
     "log": {
         "loglevel": "info"
     },
@@ -102,6 +102,55 @@
                 ]
             }
         },
+        {
+      "tag": "VLESSBLOCK2",
+      "port": 8443,
+      "listen": "0.0.0.0",
+      "protocol": "vless",
+      "settings": {
+        "clients": [],
+        "decryption": "none"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "metadataOnly": false
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "xhttpSettings": {
+          "host": "",
+          "mode": "auto",
+          "path": "/api/v3/userdata/sync",
+          "headers": {},
+          "noSSEHeader": false,
+          "xPaddingBytes": "100-1000"
+        },
+        "realitySettings": {
+          "publicKey": "RrUENssvgWmkqd7laJC8X_9I3xSJsgKwzAcCeCEO61k",
+          "privateKey": "2Ni59q7dia97whGjPENCAhVZFrZ0pE2O20zHV_L2Hjk",
+          "dest": "vk.com:443",
+          "show": false,
+          "xver": 0,
+          "spiderX": "/",
+          "shortIds": [
+            "ed39ecde7f0ebcab"
+          ],
+          "fingerprint": "chrome",
+          "serverNames": [
+            "vk.com",
+            "www.vk.com"
+          ]
+        }
+      }
+    },
         {
             "tag": "VLESS GRPC REALITY",
             "listen": "0.0.0.0",
